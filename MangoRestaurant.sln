@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{72B2B00D-53E4-4603-BD83-AB693138F8B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{8ED52388-9183-4096-9CD2-E7F540E9107C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED52388-9183-4096-9CD2-E7F540E9107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED52388-9183-4096-9CD2-E7F540E9107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED52388-9183-4096-9CD2-E7F540E9107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED52388-9183-4096-9CD2-E7F540E9107C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8ED52388-9183-4096-9CD2-E7F540E9107C} = {72B2B00D-53E4-4603-BD83-AB693138F8B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0730D698-877E-4F76-81B2-2BB48203DCB6}
+	EndGlobalSection
+EndGlobal
