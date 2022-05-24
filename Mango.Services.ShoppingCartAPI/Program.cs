@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Mango.Services.ShoppingCartAPI.DbContexts;
 using Microsoft.OpenApi.Models;
 using Mango.Services.ShoppingCartAPI;
+using Mango.Services.ShoppingCartAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-//builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddControllers();
 
 builder.Services.AddAuthentication("Bearer")
